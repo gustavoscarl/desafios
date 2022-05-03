@@ -57,7 +57,7 @@ main > section.branco > p {
 #imagemflor {
     background-color: rgb(15, 66, 2);
     background-image: url(imagens/background001.jpg);
-    background-position: center right;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -82,7 +82,7 @@ p.bgtransparente {
 #imagemlivro {
     background-color: black;
     background-image: url(imagens/background002.jpg);
-    background-position: center right;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
