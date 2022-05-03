@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Passion One';
+    src: url(fontes/passionone-regular.ttf) format('truetype');
+    font-family: 'Sriracha';
+    src: url(fontes/sriracha-regular.ttf) format('truetype');
+}
+:root {
+    --fonteheading: 'Passion One';
+    --fontesubheading: Verdana, Arial, sans-serif;    --fontetexto: 'Sriracha';
+    --tamanhoheading: 7.5rem;
+    --tamanhosubheading: 1.8rem;
+    font-size: 62.5%;
+
+}
+body {
+    margin: 0px 0px 0px 0px;
+    font-size: 62.5%;
+}
+
+header {
+        text-align: center;
+        background-color: black;
+        color: white;
+        margin: 0px 0px 0px 0px;
+        
+}
+
+h1 {
+    margin: 0px 0px -15px 0px;
+    font-size: var(--tamanhoheading);
+    padding-top: 4rem;
+    font-family: var(--fonteheading);
+    
+}
+
+header p {
+    font-size: var(--tamanhosubheading);
+    padding-bottom: 50px;
+}
+
+main p {
+    font-family:var(--fontetexto) ;
+    font-size: 2.6rem;
+    margin-left: 3rem;
+
+    
+}
+
+main > section.branco > p {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    margin-left: 5rem;
+}
+
+#imagemflor {
+    background-color: rgb(15, 66, 2);
+    background-image: url(imagens/background001.jpg);
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: 100%;
+    width: 100%;
+    box-shadow: inset 4px 5px 20px rgba(0, 0, 0, 0.356);
+}
+
+
+p.bgtransparente {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.425);
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.151);
+    margin-left: 5rem;
+}
+
+#imagemlivro {
+    background-color: black;
+    background-image: url(imagens/background002.jpg);
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: 100%;
+    width: 100%;
+    box-shadow: inset 4px 5px 20px rgba(0, 0, 0, 0.479);
+}
+
+
+footer > p {
+    background-color: black;
+    color: white;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+
+    text-decoration: underline;
+}
